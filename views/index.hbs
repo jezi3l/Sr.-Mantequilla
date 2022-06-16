@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Sr. Mantequilla | La Mejor Mantequilla De Maní
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="../images/logo.png" alt="Logo" width="125">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">Productos</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/account">{{nombre}}</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="images/cart.png"alt="Cart" width="30px">
+            <img src="https://img.icons8.com/ios-filled/28/000000/menu--v1.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1> 100% Natural <br>Sin basura añadida </h1>
+                <p>parrafos de lectura!!!!!</p>
+                <a href="" class="btn">Aprende Mas &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/raw_peanuts_x1.jpg" alt="yumm">
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------- featured categories------------------>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/gettyimages-898312966.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/gettyimages-898312966.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/gettyimages-898312966.jpg" alt="">
+                </div>
+            </div>    
+        </div>
+    </div>
+<!----------------- featured products ------------------>
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/oven-roastef.jpg" alt="more peanuts">
+            <h4>Recien hechos</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>    
+                <i class="fa fa-star"></i>    
+                <i class="fa fa-star"></i>    
+                <i class="fa fa-star"></i>    
+                <i class="fa fa-star-o"></i>    
+            </div>
+            <p>$100.00 Pesos</p>
+        </div>
+    </div>
+</div>
+<!---------OFFER-------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/istock_000015749728_small.jpg" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusivamente disponible en señor mantequilla</p>
+                <h1>Manicoco</h1>
+                <small>Product features and many ohter boring details</small>
+                <a href="" class="btn">Comprar &#8594</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------Sellos------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/HechoenMexico.png" alt="Hecho en Mexico">
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------footer -------------->
+<div class="footer">
+    <div class="container">
+        <div class="row-2">
+            <div class="footer-col-1">
+                <h3>Descarga Nuestra Aplicacion</h3>
+                <p>Download App for Android and iOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/downloadAppStore.png" alt="iOS">
+                    <img src="images/downloadGooglePlay.png" alt="Google Play">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.png" alt="Logo">
+                <p>Nuestra meta es deleitar tus papilas gustativas con ingredientes naturales</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>Cupones</li>
+                    <li>Publicaciones</li>
+                    <li>Polisas de Devolucion</li>
+                    <li>Unirte</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Siguenos</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Señor Mantequilla</p>
+    </div>
+</div>
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
